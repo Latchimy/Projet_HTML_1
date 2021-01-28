@@ -1,0 +1,296 @@
+/*Polices*/
+@font-face{
+    font-family:'Cinzel';
+    src: url('Cinzel-Regular.ttf') format('truetype');
+    font-family:'Montserrat';
+    src: url('Montserrat-Regular.ttf') format('truetype');
+}
+/*Fin police*/
+body{
+    background: radial-gradient(#2E5941,#0D2622);/*Dégradé de couleur*/
+    color:#ffffff;
+    font-family: 'Montserrat';
+}
+/*Les titres*/
+h1{
+    color:#F2B705;
+    text-align: center;
+    font-family: 'Cinzel';
+}
+h2{
+    color:#A9BF04;
+    margin-left: 10px;
+    font-family:'Cinzel';
+}
+h3{
+    color: #A6BF80;
+    margin-left: 30px;
+    font-family: 'Cinzel';
+}
+#Nif{
+    margin-left: 1350px;
+}
+    
+    /*Fin Titres*/
+
+/*Couleurs des liens que j'ai changé pour une question d'esthétique*/
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link{/*Couleur du lien avant d'être visiter*/
+    color:#F2B705;
+}/*Définit la couleur du lien, sans avoir le curseur au-dessus, sans cliquer dessus non plus*/
+a:visited{/*Comme son nom a:visited l'indique c'est la couleur du lien une fois qu'il a été visiter, je n'ai pas fait de manipulation particulière si ce n'est changer la couleur*/
+    color:#A9BF04
+}
+a:hover{
+    background: 1px solid;
+    background: #0D2622;/*Couleur d'arrière plan lorsque l'on survole*/
+}
+/*Fin changement de couleur des liens*/
+
+#Glossaire{
+    margin-left: 50px;
+    list-style-image: url('../Images/Plandetravail1.png');
+}
+/*Les tableaux*/
+
+#Veracrasse{
+    margin-left: 30px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+#Horglups{
+    margin-left: 1050px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 350px;
+    height:600px;
+    text-align:justify;
+}
+#Botruc{
+    margin-left: 30px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 350px;
+    height: 700px;
+    text-align: justify;
+}
+#Augurey{
+    margin-left: 1050px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+}
+#Hippogriffe{
+    margin-left: 30px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 450px;
+    height: 850px;
+    text-align: justify;
+}
+#Niffleur{
+    margin-left: 1050px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: auto;
+    height: auto;
+    text-align: justify;
+}
+#Kelpy{
+    margin-left: 30px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 300px;
+    height:auto;
+    text-align: center;
+}
+#Demiguise{
+    margin-left: 1050px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+#Basilic{
+    margin-left: 30px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+}
+#LG{
+    margin-left: 1050px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+#Détraqueur{
+    margin-left: 30px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+#Magyar{
+    margin-left: 1050px;
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: #080C26;
+    table-layout: auto;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+}
+td{
+    border:1px solid;
+}
+/*Fin tableau*/
+/*Images pour tableaux*/
+.FantasticBeast{
+    width: 500px;
+    display:block;
+    margin: auto;
+}
+.Veracrasse{
+    width: 50px;
+    display:block;
+    margin:auto;
+}
+.Horglup{
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+.Botruc{
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+.Augurey{
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+}
+.Hippogriffe{
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+}
+.Niffleur{
+    width: 150px;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+.Kelpy1{
+    width:150px;
+    height:200px;
+    display: block;
+    margin:auto;
+}
+.Demiguise{
+    width:150px;
+    height:200px;
+    display:block;
+    margin:auto;
+}
+.Basilic2{
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+}
+.Loup-Garou{
+    width: 250px;
+    height: 150px;
+    display:block;
+    margin:auto;
+}
+.Détraqueur{
+    width:150px;
+    height: 200px;
+    display: block;
+    margin:auto;
+}
+.Magyar{
+    width:200px;
+    height: 200px;
+    display:block;
+    margin:auto;
+}
+/*Fin Images Tableaux*/
+/*Images*/
+/*P*/
+.Presentation{
+    text-align: left;
+    margin-right: 10px;
+}
+.Apparence{
+    text-align: left;
+    margin-right: 10px;
+}
+.Caracteres{
+    text-align: left;
+    margin-right: 10px;
+}
+.Pouvoir{
+    text-align: left;
+    margin-right: 10px ;
+}
+.Presentation1{
+    text-align: right;
+    margin-right: 50px;
+}
+.Apparence1{
+    text-align: right;
+    margin-left: 50px;
+}
+.Caracteres1{
+    text-align: center;
+    margin-left: 50px;
+}
+.Pouvoir1{
+    text-align: center;
+    margin-left: 50px;
+}
+
