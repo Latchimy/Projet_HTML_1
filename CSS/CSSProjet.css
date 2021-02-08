@@ -7,7 +7,7 @@
 }
 /*Fin police*/
 body{
-    background: radial-gradient(#2E5941,#0D2622);/*Dégradé de couleur*/
+    background: radial-gradient(#2E5941,#0D2622) fixed;/*Dégradé de couleur fixe*/
     color:#ffffff;
     font-family: 'Montserrat';
 }
@@ -30,8 +30,11 @@ h3{
 #Nif{
     margin-left: 1350px;
 }
-    
-    /*Fin Titres*/
+#Glossaire{
+    margin-left: 50px;
+    list-style-image: url('../Images/Plandetravail1.png');/*Remplace les puces de la liste par une image*/
+}
+/*Fin Titres*/
 
 /*Couleurs des liens que j'ai changé pour une question d'esthétique*/
 a{
@@ -50,17 +53,14 @@ a:hover{
     background: #0D2622;/*Couleur d'arrière plan lorsque l'on survole*/
 }
 /*Fin changement de couleur des liens*/
-
-#Glossaire{
-    margin-left: 50px;
-    list-style-image: url('../Images/Plandetravail1.png');
-}
 /*Les tableaux*/
-
+td,th{
+    border: 1px solid whitesmoke;
+}
 #Veracrasse{
-    margin-left: 30px;
+    float:left;
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     background-color: #080C26;
     table-layout: auto;
     width: 300px;
@@ -68,7 +68,7 @@ a:hover{
     text-align: center;
 }
 #Horglups{
-    margin-left: 1050px;
+    float:right;
     border-collapse: collapse;
     border: 1px solid black;
     background-color: #080C26;
@@ -78,7 +78,7 @@ a:hover{
     text-align:justify;
 }
 #Botruc{
-    margin-left: 30px;
+    float:left;
     border-collapse: collapse;
     border: 1px solid black;
     background-color: #080C26;
@@ -88,7 +88,7 @@ a:hover{
     text-align: justify;
 }
 #Augurey{
-    margin-left: 1050px;
+    float:right;
     border-collapse: collapse;
     border: 1px solid black;
     background-color: #080C26;
@@ -98,7 +98,7 @@ a:hover{
     text-align: center;
 }
 #Hippogriffe{
-    margin-left: 30px;
+    float:left;
     border-collapse: collapse;
     border: 1px solid black;
     background-color: #080C26;
@@ -108,7 +108,7 @@ a:hover{
     text-align: justify;
 }
 #Niffleur{
-    margin-left: 1050px;
+    float:right;
     border-collapse: collapse;
     border: 1px solid black;
     background-color: #080C26;
@@ -118,7 +118,7 @@ a:hover{
     text-align: justify;
 }
 #Kelpy{
-    margin-left: 30px;
+    float:left;
     border-collapse: collapse;
     border: 1px solid black;
     background-color: #080C26;
@@ -128,7 +128,7 @@ a:hover{
     text-align: center;
 }
 #Demiguise{
-    margin-left: 1050px;
+    float:right;
     border-collapse: collapse;
     border: 1px solid black;
     background-color: #080C26;
@@ -138,7 +138,7 @@ a:hover{
     text-align: center;
 }
 #Basilic{
-    margin-left: 30px;
+    float:left;
     border-collapse: collapse;
     border: 3px solid black;
     background-color: #080C26;
@@ -148,7 +148,7 @@ a:hover{
     text-align: center;
 }
 #LG{
-    margin-left: 1050px;
+    float:right;
     border-collapse: collapse;
     border: 3px solid black;
     background-color: #080C26;
@@ -158,7 +158,7 @@ a:hover{
     text-align: center;
 }
 #Détraqueur{
-    margin-left: 30px;
+    float:left;
     border-collapse: collapse;
     border: 3px solid black;
     background-color: #080C26;
@@ -168,7 +168,7 @@ a:hover{
     text-align: center;
 }
 #Magyar{
-    margin-left: 1050px;
+    float:right;
     border-collapse: collapse;
     border: 3px solid black;
     background-color: #080C26;
@@ -176,9 +176,6 @@ a:hover{
     width: 300px;
     height: 450px;
     text-align: center;
-}
-td{
-    border:1px solid;
 }
 /*Fin tableau*/
 /*Images pour tableaux*/
@@ -260,37 +257,4 @@ td{
 }
 /*Fin Images Tableaux*/
 /*Images*/
-/*P*/
-.Presentation{
-    text-align: left;
-    margin-right: 10px;
-}
-.Apparence{
-    text-align: left;
-    margin-right: 10px;
-}
-.Caracteres{
-    text-align: left;
-    margin-right: 10px;
-}
-.Pouvoir{
-    text-align: left;
-    margin-right: 10px ;
-}
-.Presentation1{
-    text-align: right;
-    margin-right: 50px;
-}
-.Apparence1{
-    text-align: right;
-    margin-left: 50px;
-}
-.Caracteres1{
-    text-align: center;
-    margin-left: 50px;
-}
-.Pouvoir1{
-    text-align: center;
-    margin-left: 50px;
-}
 

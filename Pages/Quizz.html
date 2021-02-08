@@ -7,16 +7,38 @@
 </head>
 <body>
     <h1>Vérifions vos connaissances</h1>
-    <label for="Années">Vous êtes en :</label>
-    <select name="Années" id="Années">
-        <option value="Select">Sélectionnez votre année :</option>
-        <option value="1">1ère année</option>
-        <option value="2">2ème année</option>
-        <option value="3">3ème année</option>
-        <option value="4">4ème année</option>
-        <option value="5">5ème année</option>
-        <option value="6">6ème année</option>
-        <option value="7">7ème année</option>
-    </select>
+<form>
+    <fieldset>
+        <legend>Vos identifiants :</legend><br>
+            <label for="Années">Vous êtes en :</label>
+                <select name="Années" id="Années">
+                    <option value="Select">Sélectionnez votre année :</option>
+                    <option value="1">1ère année</option>
+                    <option value="2">2ème année</option>
+                    <option value="3">3ème année</option>
+                    <option value="4">4ème année</option>
+                    <option value="5">5ème année</option>
+                    <option value="6">6ème année</option>
+                    <option value="7">7ème année</option>
+                </select>
+            <label for="Maison">Votre maison :</label>
+                <select name="Maison" id="Maison">
+                    <option value="Select">Sélectionnez votre maison :</option>
+                    <option value="Maison">Gryffondor</option>
+                    <option value="Maison">Serdaigle</option>
+                    <option value="Maison">Poufsouffle</option>
+                    <option value="Maison">Serpentard</option>
+                </select>
+            <label for="Nom">Nom: </label>
+                <input type="text" id="Nom" required>
+            <label for="Prenom">Prénom: </label>
+                <input type="text" id="Prenom" required><br>   
+    </fieldset>
+        <label for="Question1">Selon le ministère de la Magie, qu'est ce qu'une créature fantastique ?</label>
+            <input type="text" id="Question1"><br>
+        <label for="Question2">Combien de classe existe t'il en Magizoologie ?</label>
+            <input type="number" id="Question2"><br>
+        <label for="Question3"></label>
+</form>
 </body>
 </html>
