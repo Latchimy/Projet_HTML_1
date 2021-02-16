@@ -406,13 +406,13 @@ thead {
 .Det {
     margin-left: 350px;
     width: auto;
-    height: 500px;
+    height: 650px;
 }
 
 .Mag {
     margin-left: 30px;
     width: auto;
-    height: 650px;
+    height: 600px;
 }
 
 
@@ -633,3 +633,6 @@ thead {
     display: block;
     list-style: none;
 }
+
+
+/*Fin buttons*/
