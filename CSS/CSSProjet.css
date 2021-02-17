@@ -630,8 +630,16 @@ thead {
 /*Buttons*/
 
 #Boutons {
-    display: block;
+    display: inline-block;
     list-style: none;
+}
+
+#Suivant {
+    display: inline-block;
+}
+
+#Precedent {
+    display: inline-block;
 }
 
 
